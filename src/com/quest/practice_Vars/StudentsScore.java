@@ -86,7 +86,7 @@ public class StudentsScore {
 
             double[] averages = new double[names.length];
 
-            // Calculate average for each student
+
             for (int i = 0; i < names.length; i++) {
                 int totalScore = 0;
                 int count = 0;
@@ -98,7 +98,7 @@ public class StudentsScore {
                     }
                 }
 
-                // Calculate average score
+
                 if (count > 0) {
                     averages[i] = (double) totalScore / count;
                 } else {
@@ -107,7 +107,7 @@ public class StudentsScore {
 
             }
 
-            // Rank students based on average score
+
             for (int i = 0; i < averages.length; i++) {
                 for (int j = i + 1; j < averages.length; j++) {
                     if (averages[i] < averages[j]) {
