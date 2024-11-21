@@ -1,9 +1,7 @@
-package com.quest.oops;
+package com.quest.oops.abstration;
 
 public abstract class Student {
     public abstract void attendClass();
     public abstract void submitAssignment();
-    public void study(){
-        System.out.println("Student study");
-    }
+
 }
