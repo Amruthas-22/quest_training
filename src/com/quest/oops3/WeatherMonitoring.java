@@ -1,8 +1,8 @@
 package com.quest.oops3;
 
 public class WeatherMonitoring {
-    private Weather[] cities;
-    private int cityCount;
+   private   Weather[] cities;
+   private   int cityCount;
 
     // Constructor
     public WeatherMonitoring(int maxCities) {
