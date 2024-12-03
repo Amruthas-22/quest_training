@@ -20,16 +20,8 @@ public class UserClass {
         return username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
     public Map<String, PlayList> getPlaylists() {
         return playlists;
-    }
-
-    public void setPlaylists(Map<String, PlayList> playlists) {
-        this.playlists = playlists;
     }
 
     public Set<TrackClass> getFavoriteTracks() {
@@ -85,6 +77,7 @@ public class UserClass {
             System.out.println("Track " + track.getTitle() + " is not in favorites.");
         }
     }
+
 
     public void displayFavorites() {
         if (favoriteTracks.isEmpty()) {

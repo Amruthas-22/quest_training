@@ -16,6 +16,7 @@ public class TrackClass {
         this.duration = duration;
         this.rating = 0;
     }
+
     public int getId() {
         return id;
     }
@@ -48,19 +49,21 @@ public class TrackClass {
         this.rating = rating;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        TrackClass track = (TrackClass) obj;
-        return Objects.equals(id, track.id);
+        @Override
+        public boolean equals (Object obj){
+            if (this == obj) return true;
+            if (obj == null || getClass() != obj.getClass()) return false;
+            TrackClass track = (TrackClass) obj;
+            return Objects.equals(id, track.id);
+        }
+
+
+        @Override
+        public String toString () {
+            return "Track{id='" + id + "', title='" + title + "', artist='" + artist + "', duration=" + duration + ", rating=" + rating + "}";
+        }
+
     }
 
-    @Override
-    public String toString() {
-        return "Track{id='" + id + "', title='" + title + "', artist='" + artist + "', duration=" + duration + ", rating=" + rating + "}";
-    }
-
-}
 
 

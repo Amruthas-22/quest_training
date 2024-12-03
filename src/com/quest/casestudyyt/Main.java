@@ -3,7 +3,6 @@ package com.quest.casestudyyt;
 import java.util.*;
 
 public class Main {
-
     public static void main(String[] args) {
 
         UserClass user1 = new UserClass("Alice", new HashMap<>());
@@ -111,7 +110,7 @@ public class Main {
             System.out.println("\nRating tracks in 'Rock Classics':");
             rockClassics.getTracks().get(0).setRating(5);
             rockClassics.getTracks().get(1).setRating(4);
-//            rockClassics.getTracks().get(2).setRating(3);
+
 
             System.out.println("\nSorting 'Rock Classics' by rating:");
             rockClassics.sortTracksByRating();
