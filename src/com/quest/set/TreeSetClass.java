@@ -12,11 +12,11 @@ public class TreeSetClass {
         for(int i : tc){
             System.out.println(i);
         }
-        System.out.println(tc.first());
-        System.out.println(tc.last());
-        System.out.println(tc.descendingSet());
-//        System.out.println(tc.floor(2));//later
-        System.out.println(tc.headSet(tc.size(),false));
+//        System.out.println(tc.first());
+//        System.out.println(tc.last());
+//        System.out.println(tc.descendingSet());
+       System.out.println(tc.floor(2));//later
+//        System.out.println(tc.headSet(tc.size(),false));
 
 
     }

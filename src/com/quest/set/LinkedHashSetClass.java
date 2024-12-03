@@ -13,14 +13,14 @@ public class LinkedHashSetClass {
         for (String s : linked) {
             System.out.println(s);
         }
-        System.out.println(linked.size());
-        System.out.println(linked.contains("Dog"));
-        System.out.println(linked.remove("Cat"));
-        System.out.println(linked.isEmpty());
-        linked.clear();
-        Iterator<String> iterator = linked.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
+//        System.out.println(linked.size());
+//        System.out.println(linked.contains("Dog"));
+//        System.out.println(linked.remove("Cat"));
+//        System.out.println(linked.isEmpty());
+//        linked.clear();
+//        Iterator<String> iterator = linked.iterator();
+//        while (iterator.hasNext()) {
+//            System.out.println(iterator.next());
+//        }
     }
 }

@@ -9,17 +9,17 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         SubcriberManagment subscriberManagement = new SubcriberManagment();
         GenerateBill generateBill = new GenerateBill(subscriberManagement);
-        File file = new File("SUBSCRIBER_FILE.txt");
-        try {
-            if (file.createNewFile()) {
-                System.out.println("File created: " + file.getName());
-            } else {
-                System.out.println("File already exists.");
-            }
-        } catch (IOException e) {
-            System.out.println("An error occurred while creating the file.");
-            e.printStackTrace();
-        }
+//        File file = new File("SUBSCRIBER_FILE.txt");
+//        try {
+//            if (file.createNewFile()) {
+//                System.out.println("File created: " + file.getName());
+//            } else {
+//                System.out.println("File already exists.");
+//            }
+//        } catch (IOException e) {
+//            System.out.println("An error occurred while creating the file.");
+//            e.printStackTrace();
+//        }
 
         while (true) {
             System.out.println("\n--- Subscriber Management System ---");

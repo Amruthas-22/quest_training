@@ -45,7 +45,7 @@ public class SubcriberManagment {
                 file.createNewFile();
             }
 
-            fileOut = new FileOutputStream(file, false);
+            fileOut = new FileOutputStream(file);
 
             for (Subscriber subscriber : subscribers) {
                 String line = subscriber.getId() + "," +
