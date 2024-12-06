@@ -6,9 +6,9 @@ import java.util.Optional;
 public class Main {
     public static void main(String[] args) {
         Employee employee1 = new Employee(1,"arun",20,"IT",20000,1);
-        Employee employee2 = new Employee(1,"sam",21,"HR",25000,2);
-        Employee employee3 = new Employee(1,"joe",22,"IT",30000,3);
-        Employee employee4 = new Employee(1,"anna",23,"HR",35000,4);
+        Employee employee2 = new Employee(2,"sam",21,"HR",25000,2);
+        Employee employee3 = new Employee(3,"joe",22,"IT",30000,3);
+        Employee employee4 = new Employee(4,"anna",23,"HR",35000,4);
 
         List<Employee> employeeList = List.of(employee1,employee2,employee3,employee4);
 
